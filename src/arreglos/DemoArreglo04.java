@@ -7,7 +7,7 @@ public class DemoArreglo04 {
 		char[] arregloA = {'D', 'A','N','I','L','O','N','O','G','U','E','R','A'};
 		char[] arregloB = new char[10];
 		//copia de los elementos
-		System.arraycopy(arregloA, 0, arregloB, 1, 6);
+		System.arraycopy(arregloA, 0, arregloB, 0, 6);
 		System.out.println(new String (arregloB));
 		//Eliminar elementos del arreglo
 		int indicador = 3; //indice del elemento a eliminar
